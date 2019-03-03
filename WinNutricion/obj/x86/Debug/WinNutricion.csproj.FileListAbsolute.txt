@@ -1,0 +1,68 @@
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\WinNutricion.exe.config
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\WinNutricion.exe
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\WinNutricion.pdb
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Npgsql.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Mono.Security.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Npgsql.pdb
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Npgsql.xml
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\de\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\es\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\fi\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\fr\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\ja\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.PacientesAMFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.PrincipalFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.PacientesFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.Properties.Resources.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.exe
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.pdb
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.DietasFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.DietasAMFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.Formularios.PlatoFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.DietasPacienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.PlatosPacienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.AltaPlatoFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ModificarPlatoFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\WinNutricion.exe.config
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.exe
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.pdb
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\WinNutricion.exe
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\WinNutricion.pdb
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Npgsql.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Mono.Security.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Npgsql.pdb
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\Npgsql.xml
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\de\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\es\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\fi\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\fr\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\ja\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ModificarPlatoFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.AltaPlatoFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.PrincipalFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.Properties.Resources.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.AltaIngredienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ModificacionIngredienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.AltaProfesionalFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ModificacionProfesionalFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.AltaDietasFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ModificacionDietaFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.AltaPacientesFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ModificacionPacienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ListarPacientesFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.Formularios.Listado.ListarPlatosFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.Formularios.Listado.ListarPlatosPacienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.Formularios.Listado.ListarProfesionalesFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ListarControlesPacienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ListarDietasPacienteFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ListarDietasFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ListarIngredientesFrm.resources
+C:\Documents and Settings\yo\Mis documentos\Downloads\PROYECTO C#\WinNutricion\WinNutricion\WinNutricion\obj\x86\Debug\WinNutricion.ListarPacientesProfesionalFrm.resources

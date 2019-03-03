@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{900A38D5-6CC9-432A-B460-B71293A66D8D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinNutricion</RootNamespace>
+    <AssemblyName>WinNutricion</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Npgsql, Version=2.0.11.91, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>references\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="db\AccessDB.cs" />
+    <Compile Include="db\CommonObj.cs" />
+    <Compile Include="db\IAccessDB.cs" />
+    <Compile Include="db\Impl\Dieta.cs" />
+    <Compile Include="db\Impl\DietaPaciente.cs" />
+    <Compile Include="db\Impl\Ingrediente.cs" />
+    <Compile Include="db\Impl\Paciente.cs" />
+    <Compile Include="db\Impl\PacienteControl.cs" />
+    <Compile Include="db\Impl\PacienteProfesional.cs" />
+    <Compile Include="db\Impl\Plato.cs" />
+    <Compile Include="db\Impl\PlatoDieta.cs" />
+    <Compile Include="db\Impl\PlatoIngrediente.cs" />
+    <Compile Include="db\Impl\PlatoPaciente.cs" />
+    <Compile Include="db\Impl\Profesional.cs" />
+    <Compile Include="db\ITable.cs" />
+    <Compile Include="db\ManagerDB.cs" />
+    <Compile Include="db\Model\Dieta.cs" />
+    <Compile Include="db\Model\DietaPaciente.cs" />
+    <Compile Include="db\Model\Ingrediente.cs" />
+    <Compile Include="db\Model\Paciente.cs" />
+    <Compile Include="db\Model\PacienteControl.cs" />
+    <Compile Include="db\Model\PacienteProfesional.cs" />
+    <Compile Include="db\Model\Plato.cs" />
+    <Compile Include="db\Model\PlatoDieta.cs" />
+    <Compile Include="db\Model\PlatoIngrediente.cs" />
+    <Compile Include="db\Model\PlatoPaciente.cs" />
+    <Compile Include="db\Model\Profesional.cs" />
+    <Compile Include="db\Utils.cs" />
+    <Compile Include="Formularios\AltaDietasFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AltaDietasFrm.Designer.cs">
+      <DependentUpon>AltaDietasFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AltaIngredienteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AltaIngredienteFrm.Designer.cs">
+      <DependentUpon>AltaIngredienteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AltaPacientesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AltaPacientesFrm.Designer.cs">
+      <DependentUpon>AltaPacientesFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AltaProfesionalFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AltaProfesionalFrm.Designer.cs">
+      <DependentUpon>AltaProfesionalFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarControlesPacienteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarControlesPacienteFrm.designer.cs">
+      <DependentUpon>ListarControlesPacienteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarDietasFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarDietasFrm.designer.cs">
+      <DependentUpon>ListarDietasFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarDietasPacienteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarDietasPacienteFrm.designer.cs">
+      <DependentUpon>ListarDietasPacienteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarIngredientesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarIngredientesFrm.designer.cs">
+      <DependentUpon>ListarIngredientesFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarPacientesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarPacientesFrm.designer.cs">
+      <DependentUpon>ListarPacientesFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarPacientesProfesionalFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarPacientesProfesionalFrm.designer.cs">
+      <DependentUpon>ListarPacientesProfesionalFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarPlatosFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarPlatosFrm.Designer.cs" />
+    <Compile Include="Formularios\Listado\ListarPlatosPacienteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarPlatosPacienteFrm.Designer.cs" />
+    <Compile Include="Formularios\Listado\ListarProfesionalesFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Listado\ListarProfesionalesFrm.Designer.cs" />
+    <Compile Include="Formularios\ModificacionDietaFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModificacionDietaFrm.Designer.cs">
+      <DependentUpon>ModificacionDietaFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ModificacionIngredienteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModificacionIngredienteFrm.Designer.cs">
+      <DependentUpon>ModificacionIngredienteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ModificacionPacienteFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModificacionPacienteFrm.Designer.cs">
+      <DependentUpon>ModificacionPacienteFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ModificacionProfesionalFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModificacionProfesionalFrm.Designer.cs">
+      <DependentUpon>ModificacionProfesionalFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ModificarPlatoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ModificarPlatoFrm.Designer.cs">
+      <DependentUpon>ModificarPlatoFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\AltaPlatoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\AltaPlatoFrm.Designer.cs">
+      <DependentUpon>AltaPlatoFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\PrincipalFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\PrincipalFrm.Designer.cs">
+      <DependentUpon>PrincipalFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\AltaDietasFrm.resx">
+      <DependentUpon>AltaDietasFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AltaIngredienteFrm.resx">
+      <DependentUpon>AltaIngredienteFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AltaPacientesFrm.resx">
+      <DependentUpon>AltaPacientesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AltaProfesionalFrm.resx">
+      <DependentUpon>AltaProfesionalFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listado\ListarControlesPacienteFrm.resx">
+      <DependentUpon>ListarControlesPacienteFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listado\ListarDietasFrm.resx">
+      <DependentUpon>ListarDietasFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listado\ListarDietasPacienteFrm.resx">
+      <DependentUpon>ListarDietasPacienteFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listado\ListarIngredientesFrm.resx">
+      <DependentUpon>ListarIngredientesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listado\ListarPacientesFrm.resx">
+      <DependentUpon>ListarPacientesFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listado\ListarPacientesProfesionalFrm.resx">
+      <DependentUpon>ListarPacientesProfesionalFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Listado\ListarPlatosFrm.resx" />
+    <EmbeddedResource Include="Formularios\Listado\ListarPlatosPacienteFrm.resx" />
+    <EmbeddedResource Include="Formularios\Listado\ListarProfesionalesFrm.resx" />
+    <EmbeddedResource Include="Formularios\ModificacionDietaFrm.resx">
+      <DependentUpon>ModificacionDietaFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ModificacionIngredienteFrm.resx">
+      <DependentUpon>ModificacionIngredienteFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ModificacionPacienteFrm.resx">
+      <DependentUpon>ModificacionPacienteFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ModificacionProfesionalFrm.resx">
+      <DependentUpon>ModificacionProfesionalFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ModificarPlatoFrm.resx">
+      <DependentUpon>ModificarPlatoFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\AltaPlatoFrm.resx">
+      <DependentUpon>AltaPlatoFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\PrincipalFrm.resx">
+      <DependentUpon>PrincipalFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="references\de\Npgsql.resources.dll" />
+    <Content Include="references\es\Npgsql.resources.dll" />
+    <Content Include="references\fi\Npgsql.resources.dll" />
+    <Content Include="references\fr\Npgsql.resources.dll" />
+    <Content Include="references\ja\Npgsql.resources.dll" />
+    <Content Include="references\Mono.Security.dll" />
+    <Content Include="references\Npgsql.dll" />
+    <Content Include="references\Npgsql.pdb" />
+    <Content Include="references\Npgsql.XML" />
+    <Content Include="references\zh-CN\Npgsql.resources.dll" />
+    <None Include="Resources\Plato.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
